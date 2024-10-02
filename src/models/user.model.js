@@ -88,6 +88,5 @@ userSchema.methods.generateRefreshToken = function(){
     )
 }
 
-userSchema.methods.generateRefreshtoken = function(){}
 
 export const User = new Model("User", userSchema);
